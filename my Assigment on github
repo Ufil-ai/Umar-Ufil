@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Social Hub & Form</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ff6a00, #ee0979);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: white;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 12px 18px;
+      border-radius: 50px;
+      font-size: 1.1em;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: background 0.3s ease;
+    }
+
+    .social-links a:hover {
+      background: rgba(255, 255, 255, 0.4);
+    }
+
+    .form-container {
+      background: white;
+      color: #333;
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .form-container input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    .form-container button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 15px;
+      border: none;
+      border-radius: 8px;
+      background: #ee0979;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .form-container button:hover {
+      background: #d4086b;
+    }
+
+    .google-btn {
+      background: #4285F4;
+      margin-top: 10px;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome UFIL2GUIDE Social Hub</h1>
+    <p>Connect with me and join the community!</p>
+  </header>
+
+  <div class="social-links">
+    <a href="https://facebook.com/Umar faruk is'haq" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+    <a href="https://twitter.com/Umar faruk is'haq" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+    <a href="https://tiktok.com/@Umar faruk is'haq" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+    <a href="https://wa.me/08147133100" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    <a href="mailto:umarfarukisyaku2@gmail.com"><i class="fas fa-envelope"></i> Contact</a>
+  </div>
+
+  <div class="form-container">
+    <h2>Join Us</h2>
+    <input type="text" placeholder="Username" />
+    <input type="email" placeholder="Email" />
+    <input type="password" placeholder="Password" />
+    <button>Sign Up</button>
+    <button>Login</button>
+    <button class="google-btn"><i class="fab fa-google"></i> Continue with Google</button>
+  </div>
+
+  <footer>
+    &copy; 2025 UFIL2GUIDE. All rights reserved.
+  </footer>
+</body>
+</html>
+ 
